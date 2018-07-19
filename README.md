@@ -1,4 +1,4 @@
-#Tiny App StAR Template
+# Tiny App StAR Template
 
 ## Features
 
