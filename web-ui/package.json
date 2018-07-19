@@ -24,6 +24,8 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "mongodb-stitch-browser-sdk": "^4.0.9",
+    "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   }
