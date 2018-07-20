@@ -39,7 +39,9 @@ class Login extends Component {
         <Segment>
           <Form
             onSubmit={() => {
-              loginUser('email', { email, password })
+              loginUser('email', { email, password }).catch(err => {
+                this.setState({ errorMessage: err.message })
+              })
             }}
           >
             <Form.Input
