@@ -1,24 +1,3 @@
-# Tiny App StAR Template
+# Tiny Auth
 
-## Features
-
-### stitch-app
-
-Exported Stitch Application
-
-### web-ui
-
-- React 16
-- Webpack 4
-- Babel
-- Staging ES Next Features
-- Hot Module Replacement
-
-## Use
-
-- `git clone git@github.com:aydrian/tiny-template.git`
-- `mv tiny-template tiny-{project}`
-- `cd tiny-{project}`
-- `git remote remove origin`
-- `git remote add origin git@github.com:{github_user}/tiny-{project}.git`
-- `git push -u origin master`
+A MongoDB Stitch example demonstrating authentication using Email/Password, Facebook, and Google.

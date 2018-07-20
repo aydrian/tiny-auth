@@ -1,11 +1,21 @@
 {
-  "name": "web-ui",
+  "name": "tiny-auth",
   "version": "0.1.0",
   "private": true,
+  "author": "Aydrian Howard <aydrian@mongodb.com> (http://itsaydrian.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aydrian/tiny-auth.git"
+  },
+  "license": "MIT",
   "dependencies": {
+    "mongodb-stitch-browser-sdk": "^4.0.9",
+    "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.0"
   },
   "scripts": {
     "start": "react-scripts start",
