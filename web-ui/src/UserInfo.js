@@ -6,7 +6,7 @@ const UserInfo = ({ user, logoutUser }) => {
   const dataKeys = Object.keys(data)
   return (
     <div>
-      <Header as="h1">User Info</Header>
+      <Header as="h2">User Info</Header>
       <p>You are logged in using {user.loggedInProviderName}.</p>
       <List>
         {picture && (
