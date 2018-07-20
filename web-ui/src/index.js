@@ -34,6 +34,14 @@ class StitchApp extends Component {
     this.state = { isAuthed }
   }
 
+  componentDidMount() {
+    if (this.client.auth.hasRedirectResult()) {
+      this.client.auth.handleRedirectResult().then(user => {
+        this.setState({ isAuthed: this.client.auth.isLoggedIn })
+      })
+    }
+  }
+
   login = async (type, { email, password } = {}) => {
     const { isAuthed } = this.state
     let credential
@@ -62,11 +70,6 @@ class StitchApp extends Component {
 
   render() {
     const { isAuthed } = this.state
-    if (this.client.auth.hasRedirectResult()) {
-      this.client.auth.handleRedirectResult().then(user => {
-        this.setState({ isAuthed: this.client.auth.isLoggedIn })
-      })
-    }
     return (
       <Container>
         <Header as="h1">Tiny Auth</Header>
