@@ -9,13 +9,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "mongodb-stitch-browser-sdk": "^4.0.9",
+    "mongodb-stitch-browser-sdk": "^4.1.2",
     "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "semantic-ui-css": "^2.3.3",
-    "semantic-ui-react": "^0.82.0"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "^2.1.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0"
   },
   "scripts": {
     "start": "react-scripts start",
