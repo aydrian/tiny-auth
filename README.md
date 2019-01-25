@@ -62,3 +62,13 @@ Export the project code template using `./export.sh` in the root of the project.
 ```
 
 **Note:** This exports the application configuration without any service ID values, including the App ID.
+
+### deploy-hosting.sh
+
+Exports the Stitch Projects, copies files from `web-ui/build`, and deploys them to Stitch Hosting.
+
+```
+> ./deploy-hosting.sh
+```
+
+**Note:** Be sure to run `npm run build` in the `web-ui` folder first.
